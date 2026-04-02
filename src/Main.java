@@ -15,7 +15,7 @@ public class Main {
                 System.out.println("Ты достаточно взрослый , чтобы водить , но недостаточно , чтобы пить алкоголь");
             }
             if (canNotGoToSchool) {
-                System.out.println("Я думаю ты не ходишь в школу");
+                System.out.println("Я думаю ты не ходишь в школу!!");
             }
             boolean skyIsClear = true;
             if (skyIsClear) {System.out.println("Небо чистое");}
