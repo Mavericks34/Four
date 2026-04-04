@@ -18,7 +18,7 @@ public class Main {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки.");
         }
         System.out.println("Задание 3");
-        short speed = 80;
+        short speed = 60;
         if (speed > 60) {
             System.out.println("Если скорость " + speed + " , то придется заплатить штраф.");
         } else if (speed <= 60) {
@@ -46,11 +46,11 @@ public class Main {
         System.out.println("Если возраст " + ageAdult + " , то он должен работать.");
 
         System.out.println("Задание 5");
-        byte ageChild = 3;
-        if (ageChild <= 5) {
-            System.out.println("Если возраст ребенка " + ageChild + " ,то ему нельзя кататься на атракционе");
-        } else if (ageChild > 5 && ageChild <= 14) {
-            System.out.println("Если ребенку " + ageChild + " , то ему можно кататься на аттракционе в сопровождении");
+        byte ageChild = 14;
+        if (ageChild < 5) {
+            System.out.println("Если возраст ребенка " + ageChild + " ,то ему нельзя кататься на атракционе.");
+        } else if (ageChild >= 5 && ageChild <= 14) {
+            System.out.println("Если ребенку " + ageChild + " , то ему можно кататься на аттракционе в сопровождении.");
         } else if (ageChild > 14 && ageChild < 18) {
             System.out.println("Если ребенку " + ageChild + ", то ему можно кататься без взрослого.");
         } else if (ageChild >= 18) {
