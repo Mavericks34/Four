@@ -18,14 +18,14 @@ public class Main {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки.");
         }
         System.out.println("Задание 3");
-        short speed = 60;
-        if (speed >= 59) {
+        short speed = 80;
+        if (speed > 60) {
             System.out.println("Если скорость " + speed + " , то придется заплатить штраф.");
-        } else if (speed >= 60) {
+        } else if (speed <= 60) {
             System.out.println("Если скорость " + speed + " , то можно ездить спокойно.");
         }
         System.out.println("Задание 4");
-        byte agePeople = 29;
+        byte agePeople = 2;
         byte ageTeenager = 14;
         byte ageStudent = 19;
         byte ageAdult = 29;
@@ -40,6 +40,11 @@ public class Main {
         } else if (agePeople >= 24) {
             System.out.println("Если человеку " + agePeople + " , то он должен работать как папа Карло.");
         }
+        System.out.println("Если возраст " + agePeople + " , то ему нужно ходить в детский сад.");
+        System.out.println("Если возраст " + ageTeenager + " , то он должен ходить в школу.");
+        System.out.println("Если возраст " + ageStudent + " , то он должен ходить в институт.");
+        System.out.println("Если возраст " + ageAdult + " , то он должен работать.");
+
         System.out.println("Задание 5");
         byte ageChild = 3;
         if (ageChild <= 5) {
